@@ -1,6 +1,6 @@
-var map = L.map('map').setView([37.7, -122.4], 10);
+var map = L.map('map').setView([37.7, -122.4], 12);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 
