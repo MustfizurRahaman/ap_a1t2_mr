@@ -18,4 +18,3 @@ $.getJSON("https://raw.githubusercontent.com/orhuna/WebGIS_SLU_M1/main/Module%20
     }).addTo(map);
 });
 
-
