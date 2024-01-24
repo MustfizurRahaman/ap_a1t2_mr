@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   // load GeoJSON from an external file
 var ratIcon = L.icon({
     iconUrl: 'http://maptimeboston.github.io/leaflet-intro/rat.gif',
-    iconSize: [50, 40]
+    iconSize: [20, 20]
 });
 
 $.getJSON("https://raw.githubusercontent.com/orhuna/WebGIS_SLU_M1/main/Module%201/Assignment%201/data/sf_crime.geojson", function(data) {
@@ -17,3 +17,5 @@ $.getJSON("https://raw.githubusercontent.com/orhuna/WebGIS_SLU_M1/main/Module%20
         }
     }).addTo(map);
 });
+
+
